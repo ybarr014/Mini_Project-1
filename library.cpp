@@ -59,7 +59,7 @@ else
 {
 units_received=0;
 }
-s.unitsAttempted=0;
+
 s.unitsAttempted=s.unitsAttempted+units;
 s.unitsEarned=s.unitsEarned+units_received;
 s.gpa=(s.unitsAttempted *s.gpa+units*units_received) / (s.unitsAttempted+units);
